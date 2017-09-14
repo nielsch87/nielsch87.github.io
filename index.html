@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Profile, About Me, Portfolio, CV">
+        <title>..:: Niels ::..</title>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/ico" />    <!-- Favicon for IE based user agents doesn't work on local machine -->
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>                        
+        <script src="js/script.js" type="text/javascript"></script>      
+    </head>
+    <body>
+        <header role="banner" id="header" class="header">
+        </header>
+
+        <main role="main" class="main">
+        <section class="row">  
+            <div class="col-3">
+            <header class="main-header">
+                <nav role="navigation" class="nav"><span id="mainmenu"></span>
+                        <ul id="ca-menu" class="ca-menu">
+                                <li class="about" onclick="about()">
+                                    <a>
+                                        <div class="ca-content">
+                                            <h2 class="ca-main">About Me</h2>
+                                            <h3 class="ca-sub">Wanna know me more</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="todo" onclick="todo()">
+                                    <a>
+                                        <div class="ca-content">
+                                            <h2 class="ca-main">To-Do List</h2>
+                                            <h3 class="ca-sub">Write your To-Do</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="contact" onclick="contact()">
+                                    <a>
+                                        <div class="ca-content">
+                                            <h2 class="ca-main">Contact Me</h2>
+                                            <h3 class="ca-sub">Send me something</h3>
+                                        </div>
+                                    </a>
+                                </li>
+                        </ul>
+                </nav>
+            </header>
+            <aside id="aside">
+                <form action="" id="form">
+                    <label for="" class="label">Username</label><br>
+                    <input type="text" form="" class="input"><br>
+                    <label for="" class="label">Password</label><br>
+                    <input type="text" class="input"><br>
+                <div id="button">
+                    <button class="button">Login</button>
+                    <button class="button">Sign Up</button>
+                </div>
+                </form>
+            </aside>
+            </div>
+            <div class="col-9">
+            <article role="article" id="article" class="article">   
+            </article> 
+            </div>
+        </section>        
+        </main>
+
+        <footer role="contentinfo" class="footer">
+        </footer>
+
+    </body>
+</html>
