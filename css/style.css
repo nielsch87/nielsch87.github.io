@@ -1,5 +1,5 @@
 html { 
-    background: url(../images/bg.jpg); 
+    background-color: beige;
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
@@ -156,9 +156,6 @@ li.contact:hover {
     height: 75px;
     overflow: hidden;
     display: block;
-    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     margin-bottom: 4px;
     background-image:url("../images/menu.png");
     background-repeat: no-repeat;
@@ -187,10 +184,10 @@ li.contact:hover {
 }
 
 .article {
-    height: 100px;
     background-color: rgba(0,0,0,0.2);
     border: 3px solid black;
     border-radius: 10px;  
+    padding: 50px;;
 }
 
 .row::after {
@@ -271,4 +268,122 @@ and (max-width:950px) {
     width: 94%;
     float: left;
     }
+}
+
+#header {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+}
+
+.dlapp {
+    float: right;
+    margin-top: 10px;
+    border: 3px solid yellow;
+    border-radius: 6px;
+    padding: 0px 4px 6px 6px;
+    background-color: white;
+    margin-right: 30px;
+}
+.dlapp:hover {
+    float: right;
+    margin-top: 10px;
+    border: 3px solid yellow;
+    border-radius: 6px;
+    padding: 0px 4px 6px 6px;
+    background-color: black;
+    margin-right: 30px;
+}
+
+a.dllink {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+a.dllink:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;  
+} 
+a.dllink:hover {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black
+}
+.hpapp {
+    float: left;
+    margin-top: 10px;
+    padding: 0px 16px 0px 10px;
+    margin-left: 30px;
+    background-color: black;
+    border-radius: 6px;
+    border: 2px solid yellow;
+}
+a.hplink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: italic;
+    font-family: cursive;
+}
+a.holink:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; 
+    font-size: 32px;
+    font-style: italic;
+    font-family: cursive;
+} 
+a.hplink:hover {
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    font-style: italic;
+    font-family: cursive;
+}
+footer {
+    border-top: 2px solid black;
+}
+.footerleft {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.footerright {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#content {
+    text-align: center;
+    font-size: 36px;   
+    font-family: sans-serif; 
+}
+#sadtohappy {
+    margin-top: 70px;
+}
+.plusimg {
+    position: relative;
+    top: -14px;
+    right: 10px;
+}
+#happy{
+    margin-top: 40px;
+}
+#contactform {
+    margin-top: 40px;
+    border-top: 2px solid black;
+}
+.contactp {
+    font-size: 18px;
+    text-decoration: underline;
+}
+#contactphone {
+    margin-top: 20px;
+}
+#contactemail {
+    margin-top: 20px;
 }
